@@ -23,7 +23,7 @@ html{
 body{
   margin: 0 0;
   padding: 0 0;
-  background: white; 
+  background: $color-tan; 
 }
 
 header{
@@ -52,7 +52,7 @@ nav li {
   margin: auto;
   display:inline-block;
   background-color: $nav-link-background;
-  border-bottom: 1px solid $color-middle;
+  border-bottom: 1px solid $color-lighter;
 }
 
 nav a {

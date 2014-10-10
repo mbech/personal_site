@@ -135,11 +135,11 @@ html {
 body {
   margin: 0 0;
   padding: 0 0;
-  background: white; }
+  background: #ebe6da; }
 
 header {
   background-color: #1a1a1a;
-  color: #01a69b; }
+  color: #fcfcfb; }
 
 section {
   margin: 0 10%; }
@@ -158,8 +158,8 @@ nav li {
   width: 20%;
   margin: auto;
   display: inline-block;
-  background-color: #01a69b;
-  border-bottom: 1px solid #0d615b; }
+  background-color: #fcfcfb;
+  border-bottom: 1px solid #cac5b8; }
 
 nav a {
   text-decoration: none;

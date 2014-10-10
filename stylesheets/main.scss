@@ -1,0 +1,10 @@
+$font-stack:'Lato', sans-serif;
+$header-background: grey;
+
+html{
+  font-family: $font-stack;
+}
+
+header{
+  background-color: $header-background;
+}

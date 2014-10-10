@@ -129,19 +129,17 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-* {
-  border: 1px solid blue; }
-
 html {
   font-family: "Lato", sans-serif; }
 
 body {
   margin: 0 0;
   padding: 0 0;
-  background: yellow; }
+  background: white; }
 
 header {
-  background-color: grey; }
+  background-color: #1a1a1a;
+  color: #01a69b; }
 
 section {
   margin: 0 10%; }
@@ -159,8 +157,10 @@ nav li {
   height: 40px;
   width: 20%;
   margin: auto;
-  display: inline-block; }
+  display: inline-block;
+  background-color: #01a69b;
+  border-bottom: 1px solid #0d615b; }
 
 nav a {
   text-decoration: none;
-  color: #fff; }
+  color: #1a1a1a; }

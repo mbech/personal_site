@@ -22,17 +22,22 @@ html{
 
 body{
   margin: 0 0;
+  height: 100%;
   padding: 0 0;
-  background: $color-tan; 
+  background-color: $color-tan;
 }
 
 header{
+  background: url(../img/dark_asphalt.jpg) repeat-x fixed 0 0;
   background-color: $header-background;
   color: $header-text;
 }
 
 section{
   margin: 0 10%;
+  padding-top: 1px;
+  background-color: white;
+  min-height: 500px;
 }
 
 
@@ -52,7 +57,7 @@ nav li {
   margin: auto;
   display:inline-block;
   background-color: $nav-link-background;
-  border-bottom: 1px solid $color-lighter;
+  border-bottom: 2px solid $color-gold;
 }
 
 nav a {

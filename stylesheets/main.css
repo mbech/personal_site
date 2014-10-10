@@ -134,15 +134,20 @@ html {
 
 body {
   margin: 0 0;
+  height: 100%;
   padding: 0 0;
-  background: #ebe6da; }
+  background-color: #ebe6da; }
 
 header {
+  background: url(../img/dark_asphalt.jpg) repeat-x fixed 0 0;
   background-color: #1a1a1a;
   color: #fcfcfb; }
 
 section {
-  margin: 0 10%; }
+  margin: 0 10%;
+  padding-top: 1px;
+  background-color: white;
+  min-height: 500px; }
 
 nav ul {
   list-style: none;
@@ -159,7 +164,7 @@ nav li {
   margin: auto;
   display: inline-block;
   background-color: #fcfcfb;
-  border-bottom: 1px solid #cac5b8; }
+  border-bottom: 2px solid #e3b339; }
 
 nav a {
   text-decoration: none;

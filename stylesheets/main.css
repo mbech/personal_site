@@ -141,31 +141,54 @@ body {
 header {
   background: url(../img/dark_asphalt.jpg) repeat-x fixed 0 0;
   background-color: #1a1a1a;
-  color: #fcfcfb; }
+  color: #fcfcfb;
+  width: 100%;
+  height: 171px;
+  border-bottom: 2px solid #a79e89; }
+
+#name-logo {
+  width: 30%;
+  display: inline-block; }
+
+#name-logo h1 {
+  margin: 0 0;
+  font-size: 4em;
+  line-height: 0.8em; }
+
+nav {
+  display: inline-block;
+  width: 70%;
+  float: right;
+  margin: 0;
+  height: 171px; }
+
+nav ul {
+  padding: 0;
+  margin: 0; }
+
+nav li {
+  float: left;
+  width: 250px;
+  font-size: 1.3em;
+  background-color: #fcfcfb;
+  margin: 55px 10px 0 0;
+  border: 3px solid #e3b339;
+  border-right: 3px solid #cac5b8;
+  border-bottom: 20px ridge #e3b339;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px; }
+
+nav a {
+  font-weight: bold;
+  text-align: center;
+  height: 43px;
+  line-height: 43px;
+  display: block;
+  text-decoration: none;
+  color: #1a1a1a; }
 
 section {
   margin: 0 10%;
   padding-top: 1px;
   background-color: white;
   min-height: 500px; }
-
-nav ul {
-  list-style: none;
-  text-align: center;
-  padding: 0;
-  width: 80%;
-  margin: 0 auto; }
-
-nav li {
-  font-size: 1.3em;
-  line-height: 40px;
-  height: 40px;
-  width: 20%;
-  margin: auto;
-  display: inline-block;
-  background-color: #fcfcfb;
-  border-bottom: 2px solid #e3b339; }
-
-nav a {
-  text-decoration: none;
-  color: #1a1a1a; }

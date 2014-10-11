@@ -83,6 +83,19 @@ nav a {
   color: $nav-text;
 }
 
+nav a:hover {
+  background-color: $color-gold;
+  -webkit-transition: background-color 100ms linear;
+  -moz-transition: background-color 100ms linear;
+  -o-transition: background-color 100ms linear;
+  -ms-transition: background-color 100ms linear;
+  transition: background-color 100ms linear;
+}
+
+nav a.active {
+  background-color: $color-gold;
+}
+
 section{
   margin: 0 10%;
   padding-top: 1px;

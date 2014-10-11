@@ -187,6 +187,17 @@ nav a {
   text-decoration: none;
   color: #1a1a1a; }
 
+nav a:hover {
+  background-color: #e3b339;
+  -webkit-transition: background-color 100ms linear;
+  -moz-transition: background-color 100ms linear;
+  -o-transition: background-color 100ms linear;
+  -ms-transition: background-color 100ms linear;
+  transition: background-color 100ms linear; }
+
+nav a.active {
+  background-color: #e3b339; }
+
 section {
   margin: 0 10%;
   padding-top: 1px;

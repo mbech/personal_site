@@ -136,11 +136,11 @@ body {
   margin: 0 0;
   height: 100%;
   padding: 0 0;
+  background: url(../img/swirl_pattern/swirl_pattern.png) repeat fixed 0 0;
   background-color: #ebe6da; }
 
 header {
-  background: url(../img/dark_asphalt.jpg) repeat-x fixed 0 0;
-  background-color: #1a1a1a;
+  background-color: rgba(26, 26, 26, 0.8);
   color: #fcfcfb;
   border-bottom: 5px solid #a79e89; }
   header h1, header h2 {
@@ -167,21 +167,22 @@ nav ul {
 nav li {
   display: inline-block;
   width: 30%;
-  height: 50px;
+  height: 40px;
   font-size: 1.3em;
   background-color: #fcfcfb;
-  margin-top: 0;
-  border: 3px solid #e3b339;
-  border-right: 3px solid #cac5b8;
-  border-bottom: 20px ridge #e3b339;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px; }
+  margin: 10px 3px 0 0;
+  border-bottom: 10px ridge #e3b339;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top: 10px ridge #a79e89;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px; }
 
 nav a {
   font-weight: bold;
   text-align: center;
-  height: 50px;
-  line-height: 50px;
+  height: 40px;
+  line-height: 40px;
   display: block;
   text-decoration: none;
   color: #1a1a1a; }

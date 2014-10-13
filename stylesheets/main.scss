@@ -24,12 +24,13 @@ body{
   margin: 0 0;
   height: 100%;
   padding: 0 0;
+  background: url(../img/swirl_pattern/swirl_pattern.png) repeat fixed 0 0;
   background-color: $color-tan;
 }
 
 header{
-  background: url(../img/dark_asphalt.jpg) repeat-x fixed 0 0;
-  background-color: $header-background;
+  //background: url(../img/dark_asphalt.jpg) repeat-x fixed 0 0;
+  background-color: rgba($header-background, 0.8);
   color: $header-text;
   border-bottom: 5px solid $color-darker;
 
@@ -64,23 +65,25 @@ nav ul {
 nav li {
   display:inline-block;
   width: 30%;
-  height: 50px;
+  height: 40px;
   font-size: 1.3em;
   background-color: $nav-link-background;
-  margin-top: 0;
+  margin: 10px 3px 0 0;
 
-  border: 3px solid $color-gold;
-  border-right: 3px solid $color-lighter;
-  border-bottom: 20px ridge $color-gold;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-bottom: 10px ridge $color-gold;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+  border-top: 10px ridge $color-darker;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 nav a {
   font-weight: bold;
   text-align: center;
-  height: 50px;
-  line-height: 50px;
+  height: 40px;
+  line-height: 40px;
   display: block;
   text-decoration: none;
   color: $nav-text;

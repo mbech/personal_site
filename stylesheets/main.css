@@ -140,14 +140,15 @@ body {
   background-color: #ebe6da; }
 
 header {
-  background-color: rgba(26, 26, 26, 0.8);
+  background-color: rgba(26, 26, 26, 0.7);
   color: #fcfcfb;
   border-bottom: 5px solid #a79e89; }
   header h1, header h2 {
     margin: 0 0; }
 
 #name-logo {
-  display: inline-block; }
+  display: inline-block;
+  text-shadow: 0 0 5px black; }
   #name-logo h1 {
     text-decoration: none;
     margin: 0 0;
@@ -169,9 +170,10 @@ nav li {
   width: 25%;
   height: 40px;
   font-size: 1.3em;
-  background-color: #fcfcfb;
+  background-color: #343434;
+  color: #e3b339;
   margin: 10px 3px 0 0;
-  border-bottom: 10px ridge #e3b339;
+  border-bottom: 10px groove #a79e89;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
   border-top: 10px ridge #a79e89;
@@ -185,11 +187,11 @@ nav a {
   line-height: 40px;
   display: block;
   text-decoration: none;
-  color: #1a1a1a; }
+  color: #e3b339; }
 
 nav a:hover {
-  background-color: rgba(26, 26, 26, 0.8);
-  color: #e3b339;
+  color: #1a1a1a;
+  background-color: #fcfcfb;
   -webkit-transition: background-color 100ms linear;
   -moz-transition: background-color 100ms linear;
   -o-transition: background-color 100ms linear;
@@ -197,7 +199,11 @@ nav a:hover {
   transition: background-color 100ms linear; }
 
 nav a.active {
-  background-color: #e3b339; }
+  background-color: #fcfcfb;
+  color: #1a1a1a;
+  border-bottom: 10px ridge #e3b339;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px; }
 
 section {
   margin: 0 10%;
@@ -215,7 +221,7 @@ article {
 
 .article-top {
   color: #e5b339;
-  background-color: rgba(26, 26, 26, 0.8); }
+  background-color: #343434; }
   .article-top h1 {
     font-size: 1.3em;
     font-weight: 900;

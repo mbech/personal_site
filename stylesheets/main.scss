@@ -30,7 +30,7 @@ body{
 
 header{
   //background: url(../img/dark_asphalt.jpg) repeat-x fixed 0 0;
-  background-color: rgba($header-background, 0.8);
+  background-color: rgba($header-background, 0.7);
   color: $header-text;
   border-bottom: 5px solid $color-darker;
 
@@ -41,6 +41,7 @@ header{
 
 #name-logo{
   display: inline-block;
+  text-shadow: 0 0 5px black;
 
   h1 {
     text-decoration:none;
@@ -67,10 +68,11 @@ nav li {
   width: 25%;
   height: 40px;
   font-size: 1.3em;
-  background-color: $nav-link-background;
+  background-color: lighten($color-darkest, 10%);
+  color: $color-gold;
   margin: 10px 3px 0 0;
 
-  border-bottom: 10px ridge $color-gold;
+  border-bottom: 10px groove $color-darker;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 
@@ -86,13 +88,13 @@ nav a {
   line-height: 40px;
   display: block;
   text-decoration: none;
-  color: $nav-text;
+  color: $color-gold;
 }
 
 nav a:hover,
 {
-  background-color: rgba($header-background, 0.8);
-  color: $color-gold;
+  color: $color-darkest;
+  background-color: $color-lightest; 
   -webkit-transition: background-color 100ms linear;
   -moz-transition: background-color 100ms linear;
   -o-transition: background-color 100ms linear;
@@ -101,7 +103,11 @@ nav a:hover,
 }
 
 nav a.active {
-  background-color: $color-gold;
+  background-color: $color-lightest; 
+  color: $color-darkest;
+  border-bottom: 10px ridge $color-gold;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 section{
@@ -123,16 +129,16 @@ article{
 .article-top{
   //color: $color-gold;
   color: $color-gold-bright;
-  background-color: rgba($header-background, 0.8);
+  background-color: lighten($color-darkest, 10%);
   h1{
-   font-size: 1.3em; 
-   font-weight: 900;
-   margin: 0 0;
+    font-size: 1.3em; 
+    font-weight: 900;
+    margin: 0 0;
   }
   h2{
-   font-size: 1.5em; 
-   color: $color-tan;
-   margin: 0 0;
+    font-size: 1.5em; 
+    color: $color-tan;
+    margin: 0 0;
   }
 }
 

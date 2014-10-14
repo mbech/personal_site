@@ -201,5 +201,9 @@ nav a.active {
 section {
   margin: 0 10%;
   padding-top: 1px;
-  background-color: white;
+  background-color: #ebe6da;
   min-height: 500px; }
+
+article {
+  background-color: #fcfcfb;
+  margin: 20px 20px; }

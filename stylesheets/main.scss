@@ -64,7 +64,7 @@ nav ul {
 
 nav li {
   display:inline-block;
-  width: 30%;
+  width: 25%;
   height: 40px;
   font-size: 1.3em;
   background-color: $nav-link-background;
@@ -91,7 +91,8 @@ nav a {
 
 nav a:hover,
 {
-  background-color: $color-gold;
+  background-color: rgba($header-background, 0.8);
+  color: $color-gold;
   -webkit-transition: background-color 100ms linear;
   -moz-transition: background-color 100ms linear;
   -o-transition: background-color 100ms linear;
@@ -112,5 +113,26 @@ section{
 
 article{
   background-color: $color-lightest;
-  margin: 20px 20px;
+  margin: 20px 30px;
+  border: 2px solid $color-darkest;
+  border-top: 8px ridge $color-darker;
+  overflow: hidden;
+  border-bottom-right-radius: 20px;
 }
+
+.article-top{
+  //color: $color-gold;
+  color: $color-gold-bright;
+  background-color: rgba($header-background, 0.8);
+  h1{
+   font-size: 1.3em; 
+   font-weight: 900;
+   margin: 0 0;
+  }
+  h2{
+   font-size: 1.5em; 
+   color: $color-tan;
+   margin: 0 0;
+  }
+}
+

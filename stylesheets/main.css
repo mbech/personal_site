@@ -166,7 +166,7 @@ nav ul {
 
 nav li {
   display: inline-block;
-  width: 30%;
+  width: 25%;
   height: 40px;
   font-size: 1.3em;
   background-color: #fcfcfb;
@@ -188,7 +188,8 @@ nav a {
   color: #1a1a1a; }
 
 nav a:hover {
-  background-color: #e3b339;
+  background-color: rgba(26, 26, 26, 0.8);
+  color: #e3b339;
   -webkit-transition: background-color 100ms linear;
   -moz-transition: background-color 100ms linear;
   -o-transition: background-color 100ms linear;
@@ -206,4 +207,20 @@ section {
 
 article {
   background-color: #fcfcfb;
-  margin: 20px 20px; }
+  margin: 20px 30px;
+  border: 2px solid #1a1a1a;
+  border-top: 8px ridge #a79e89;
+  overflow: hidden;
+  border-bottom-right-radius: 20px; }
+
+.article-top {
+  color: #e5b339;
+  background-color: rgba(26, 26, 26, 0.8); }
+  .article-top h1 {
+    font-size: 1.3em;
+    font-weight: 900;
+    margin: 0 0; }
+  .article-top h2 {
+    font-size: 1.5em;
+    color: #ebe6da;
+    margin: 0 0; }

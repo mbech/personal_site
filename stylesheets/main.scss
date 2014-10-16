@@ -52,8 +52,7 @@ header{
 
 nav {
   float:right;
-}
-
+} 
 nav ul {
   padding: 0;
   margin: auto auto;
@@ -120,21 +119,26 @@ article{
   border-top: 8px ridge $color-darker;
   overflow: hidden;
   border-bottom-right-radius: 20px;
+  p{
+    margin: 10px 20px;
+    font-size: 1.1em;
+  }
 }
 
 .article-top{
-  //color: $color-gold;
   color: $color-gold-bright;
   background-color: lighten($color-darkest, 10%);
+  *{
+    margin: 0 5px 0 20px;
+  }
   h1{
     font-size: 1.3em; 
     font-weight: 900;
-    margin: 0 0;
   }
   h2{
     font-size: 1.5em; 
     color: $color-tan;
-    margin: 0 0;
+    font-style: italic;
   }
 }
 

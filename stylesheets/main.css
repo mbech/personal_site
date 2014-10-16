@@ -217,15 +217,19 @@ article {
   border-top: 8px ridge #a79e89;
   overflow: hidden;
   border-bottom-right-radius: 20px; }
+  article p {
+    margin: 10px 20px;
+    font-size: 1.1em; }
 
 .article-top {
   color: #e5b339;
   background-color: #343434; }
+  .article-top * {
+    margin: 0 5px 0 20px; }
   .article-top h1 {
     font-size: 1.3em;
-    font-weight: 900;
-    margin: 0 0; }
+    font-weight: 900; }
   .article-top h2 {
     font-size: 1.5em;
     color: #ebe6da;
-    margin: 0 0; }
+    font-style: italic; }

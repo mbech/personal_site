@@ -28,8 +28,7 @@ body{
 }
 
 header{
-  //background: url(../img/dark_asphalt.jpg) repeat-x fixed 0 0;
-  background-color: rgba($header-background, 0.7);
+  background-color: rgba($header-background, 1.0);
   color: $header-text;
   border-bottom: 5px solid $color-darker;
   overflow: auto;

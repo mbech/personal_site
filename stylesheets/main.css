@@ -205,14 +205,14 @@ nav a.active {
   border-bottom-left-radius: 10px; }
 
 section {
-  margin: 85px 10% 0;
+  margin: 85px 6% 0;
   padding-top: 1px;
-  background-color: #ebe6da;
+  background-color: rgba(235, 230, 218, 0.8);
   min-height: 800px; }
 
 article {
   background-color: #fcfcfb;
-  margin: 20px 30px;
+  margin: 20px 50px;
   border: 2px solid #1a1a1a;
   border-top: 8px ridge #a79e89;
   overflow: hidden;

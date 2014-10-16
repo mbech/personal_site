@@ -106,15 +106,15 @@ nav a.active {
 }
 
 section{
-  margin: 85px 10% 0;
+  margin: 85px 6% 0;
   padding-top: 1px;
-  background-color: $color-tan;
+  background-color: rgba($color-tan, 0.8);
   min-height: 800px;
 }
 
 article{
   background-color: $color-lightest;
-  margin: 20px 30px;
+  margin: 20px 50px;
   border: 2px solid $color-darkest;
   border-top: 8px ridge $color-darker;
   overflow: hidden;

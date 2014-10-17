@@ -60,12 +60,12 @@ nav ul {
 
 nav li {
   display:inline-block;
-  width: 130px;
+  width: 110px;
   height: 40px;
   font-size: 1.3em;
   background-color: lighten($color-darkest, 10%);
   color: $color-gold;
-  margin: 10px 3px 0 0;
+  margin: 10px 20px 0 0;
 
   border-bottom: 10px groove $color-darker;
   border-bottom-right-radius: 10px;

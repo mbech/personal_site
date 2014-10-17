@@ -223,7 +223,9 @@ article {
 
 .article-top {
   color: #e5b339;
-  background-color: #343434; }
+  background-color: #1a1a1a;
+  border-bottom: 4px solid #e3b339;
+  padding-top: 10px; }
   .article-top * {
     margin: 0 5px 0 20px; }
   .article-top h1 {
@@ -232,4 +234,6 @@ article {
     font-style: italic; }
   .article-top h2 {
     font-size: 1.5em;
-    color: #fcfcfb; }
+    color: #fcfcfb;
+    font-weight: 400;
+    margin-bottom: 10px; }

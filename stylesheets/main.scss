@@ -127,7 +127,9 @@ article{
 
 .article-top{
   color: $color-gold-bright;
-  background-color: lighten($color-darkest, 10%);
+  background-color: $color-darkest;
+  border-bottom: 4px solid $color-gold;
+  padding-top: 10px;
   *{
     margin: 0 5px 0 20px;
   }
@@ -139,6 +141,8 @@ article{
   h2{
     font-size: 1.5em; 
     color: $color-lightest;
+    font-weight: 400;
+    margin-bottom: 10px;
   }
 }
 

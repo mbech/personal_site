@@ -227,9 +227,9 @@ article {
   .article-top * {
     margin: 0 5px 0 20px; }
   .article-top h1 {
-    font-size: 1.3em;
-    font-weight: 900; }
+    font-size: 1.8em;
+    font-weight: 900;
+    font-style: italic; }
   .article-top h2 {
     font-size: 1.5em;
-    color: #ebe6da;
-    font-style: italic; }
+    color: #fcfcfb; }

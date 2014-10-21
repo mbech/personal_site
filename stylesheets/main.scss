@@ -47,6 +47,10 @@ header{
     margin: 0 0;
     font-size: 4em;
     line-height: 0.8em;
+    a{
+      text-decoration: none; 
+      color: $header-text;
+    }
   }
 }
 

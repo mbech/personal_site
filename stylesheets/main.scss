@@ -64,26 +64,22 @@ nav ul {
 
 nav li {
   display:inline-block;
-  width: 110px;
-  height: 60px;
+  height: 80px;
   font-size: 1.3em;
-  background-color: lighten($color-darkest, 10%);
   color: $color-gold;
   margin: 0px 20px 0 0;
 
-  border-bottom: 10px groove $color-darker;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
 }
 
 nav a {
+  width: 110px;
   font-weight: bold;
   text-align: center;
-  height: 60px;
-  line-height: 60px;
+  line-height: 80px;
   display: block;
   text-decoration: none;
   color: $color-gold;
+  padding-left: 10px;
 }
 
 nav a:hover,
@@ -95,14 +91,13 @@ nav a:hover,
   -o-transition: background-color 100ms linear;
   -ms-transition: background-color 100ms linear;
   transition: background-color 100ms linear;
+  border-left: 10px groove $color-darker;
+  padding-left: 0;
 }
 
 nav a.active {
   background-color: $color-lightest; 
   color: $color-darkest;
-  border-bottom: 10px ridge $color-gold;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
 }
 
 section{

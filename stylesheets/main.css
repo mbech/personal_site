@@ -169,24 +169,20 @@ nav ul {
 
 nav li {
   display: inline-block;
-  width: 110px;
-  height: 60px;
+  height: 80px;
   font-size: 1.3em;
-  background-color: #343434;
   color: #e3b339;
-  margin: 0px 20px 0 0;
-  border-bottom: 10px groove #a79e89;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px; }
+  margin: 0px 20px 0 0; }
 
 nav a {
+  width: 110px;
   font-weight: bold;
   text-align: center;
-  height: 60px;
-  line-height: 60px;
+  line-height: 80px;
   display: block;
   text-decoration: none;
-  color: #e3b339; }
+  color: #e3b339;
+  padding-left: 10px; }
 
 nav a:hover {
   color: #1a1a1a;
@@ -195,14 +191,13 @@ nav a:hover {
   -moz-transition: background-color 100ms linear;
   -o-transition: background-color 100ms linear;
   -ms-transition: background-color 100ms linear;
-  transition: background-color 100ms linear; }
+  transition: background-color 100ms linear;
+  border-left: 10px groove #a79e89;
+  padding-left: 0; }
 
 nav a.active {
   background-color: #fcfcfb;
-  color: #1a1a1a;
-  border-bottom: 10px ridge #e3b339;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px; }
+  color: #1a1a1a; }
 
 section {
   margin: 75px 6% 0;

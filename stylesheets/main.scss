@@ -98,6 +98,8 @@ nav a:hover,
 nav a.active {
   background-color: $color-lightest; 
   color: $color-darkest;
+  border-left: 10px ridge $color-gold;
+  padding-left: 0;
 }
 
 section{

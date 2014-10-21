@@ -197,7 +197,9 @@ nav a:hover {
 
 nav a.active {
   background-color: #fcfcfb;
-  color: #1a1a1a; }
+  color: #1a1a1a;
+  border-left: 10px ridge #e3b339;
+  padding-left: 0; }
 
 section {
   margin: 75px 6% 0;

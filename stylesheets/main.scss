@@ -30,7 +30,7 @@ body{
 header{
   background-color: rgba($header-background, 1.0);
   color: $header-text;
-  border-bottom: 5px solid $color-darker;
+  border-bottom: 2px solid $color-darker;
   overflow: auto;
   position: fixed;
   top: 0;
@@ -50,6 +50,9 @@ header{
     a{
       text-decoration: none; 
       color: $header-text;
+    }
+    a:hover{
+      color: $color-darker; 
     }
   }
 }
@@ -112,7 +115,7 @@ article{
   background-color: $color-lightest;
   margin: 20px 50px;
   border: 2px solid $color-darkest;
-  border-top: 8px ridge $color-darker;
+  border-top: 10px ridge $color-darker;
   overflow: hidden;
   border-bottom-right-radius: 20px;
   p{
@@ -124,7 +127,7 @@ article{
 .article-top{
   color: $color-gold-bright;
   background-color: $color-darkest;
-  border-bottom: 4px solid $color-gold;
+  border-bottom: 5px solid $color-gold;
   padding-top: 10px;
   *{
     margin: 0 5px 0 20px;

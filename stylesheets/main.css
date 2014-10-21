@@ -141,7 +141,7 @@ body {
 header {
   background-color: #1a1a1a;
   color: #fcfcfb;
-  border-bottom: 5px solid #a79e89;
+  border-bottom: 2px solid #a79e89;
   overflow: auto;
   position: fixed;
   top: 0;
@@ -159,6 +159,8 @@ header {
     #name-logo h1 a {
       text-decoration: none;
       color: #fcfcfb; }
+    #name-logo h1 a:hover {
+      color: #a79e89; }
 
 nav {
   float: right; }
@@ -210,7 +212,7 @@ article {
   background-color: #fcfcfb;
   margin: 20px 50px;
   border: 2px solid #1a1a1a;
-  border-top: 8px ridge #a79e89;
+  border-top: 10px ridge #a79e89;
   overflow: hidden;
   border-bottom-right-radius: 20px; }
   article p {
@@ -220,7 +222,7 @@ article {
 .article-top {
   color: #e5b339;
   background-color: #1a1a1a;
-  border-bottom: 4px solid #e3b339;
+  border-bottom: 5px solid #e3b339;
   padding-top: 10px; }
   .article-top * {
     margin: 0 5px 0 20px; }

@@ -36,7 +36,7 @@ header{
   top: 0;
   width: 100%;
   h1, h2{
-   margin: 0 0 ; 
+    margin: 0 0 ; 
   }
 }
 
@@ -141,3 +141,37 @@ article{
   }
 }
 
+.about-container{
+  margin: 30px 10%;
+  color: $color-darkest;
+  border: 1px solid red;
+  width: 80%;
+  overflow: hidden;
+  border: 2px solid $color-darkest;
+  border-top: 8px ridge $color-darker;
+  overflow: hidden;
+  border-bottom-right-radius: 20px;
+  p{
+    margin: 10px 20px;
+    font-size: 1.1em;
+  }
+  background-color: $color-lightest;
+}
+
+.about-img{
+  margin: 20px 20px; 
+  float: right;
+  text-align: center;
+  p{
+    font-style: italic;
+    font-size: 1em;
+    color: lighten($color-darkest, 30%); 
+  }
+}
+
+.about-text{
+  margin: 20px 20px; 
+  p{
+    margin: 20px  0; 
+  }
+}

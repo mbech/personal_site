@@ -187,11 +187,11 @@ nav a {
 nav a:hover {
   color: #1a1a1a;
   background-color: #fcfcfb;
-  -webkit-transition: background-color 100ms linear;
-  -moz-transition: background-color 100ms linear;
-  -o-transition: background-color 100ms linear;
-  -ms-transition: background-color 100ms linear;
-  transition: background-color 100ms linear;
+  -webkit-transition: all 150ms linear;
+  -moz-transition: all 150ms linear;
+  -o-transition: all 150ms linear;
+  -ms-transition: all 150ms linear;
+  transition: all 150ms linear;
   border-left: 10px groove #a79e89;
   padding-left: 0; }
 

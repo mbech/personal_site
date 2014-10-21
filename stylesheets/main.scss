@@ -109,6 +109,7 @@ section{
   margin: 75px 6% 0;
   padding: 5px 0;
   background-color: rgba($color-tan, 0.8);
+  box-shadow: 0 0 15px 5px $color-darker;
 }
 
 article{
@@ -143,23 +144,6 @@ article{
     font-weight: 400;
     margin-bottom: 10px;
   }
-}
-
-.about-container{
-  margin: 30px 10%;
-  color: $color-darkest;
-  border: 1px solid red;
-  width: 80%;
-  overflow: hidden;
-  border: 2px solid $color-darkest;
-  border-top: 8px ridge $color-darker;
-  overflow: hidden;
-  border-bottom-right-radius: 20px;
-  p{
-    margin: 10px 20px;
-    font-size: 1.1em;
-  }
-  background-color: $color-lightest;
 }
 
 .about-img{

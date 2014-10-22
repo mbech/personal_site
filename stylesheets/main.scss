@@ -175,7 +175,6 @@ footer{
   height: 30px;
   a{
     padding: 5px 10px;
-    margin-right: 30px;
     color: $color-gold;
   }
   a:hover{
@@ -184,8 +183,11 @@ footer{
   }
   .right-link{
     float:right;
+    padding-right: 10px;
   }
   .left-link{
+    padding-left: 10px;
+    margin-left: 0px;
     float:left;
   }
 }

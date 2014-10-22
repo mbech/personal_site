@@ -253,6 +253,7 @@ article {
 
 footer {
   background-color: #1a1a1a;
+  color: #ebe6da;
   border-top: 2px solid #a79e89;
   overflow: auto;
   position: fixed;
@@ -262,5 +263,11 @@ footer {
   footer a {
     padding: 5px 10px;
     margin-right: 30px;
-    float: right;
     color: #e3b339; }
+  footer a:hover {
+    color: #ebe6da;
+    text-decoration: none; }
+  footer .right-link {
+    float: right; }
+  footer .left-link {
+    float: left; }

@@ -40,9 +40,6 @@ header{
   }
 }
 
-li ul{ //nested list
-  padding-left: 30px;
-}
 
 a{
   color:darken($color-gold, 20%);
@@ -133,7 +130,7 @@ article{
   overflow: hidden;
   border-bottom-right-radius: 20px;
 }
-.article-top{
+.article-header{
   color: $color-gold-bright;
   background-color: $color-darkest;
   border-bottom: 5px solid $color-gold;
@@ -154,34 +151,46 @@ article{
   }
 }
 
+.article-body{
+  div{
+  vertical-align: top;
+  } 
+}
+
+
 .article-img{
-  margin-right: 50px;
-  float: left; 
+  display: inline-block;
   height: 300px;
+  margin-left: 0;
   box-shadow: 5px 0px 10px -2px $color-darker;
 }
 
-.article-body {
-  margin: 20px 30px;
+.article-text{
+  max-width: 55%;
+  display: inline-block;
+  font-size:1.1em;
+  margin-left: 30px;
   p{
-    margin: 10px 20px;
-    font-size: 1.1em;
+  }
+  li ul{ //nested list
+    padding-left: 30px;
   }
 }
 
 .about-img{
-  margin: 20px 20px; 
+  margin: 20px 20px;
   float: right;
   text-align: center;
   p{
     font-style: italic;
     font-size: 1em;
-    color: lighten($color-darkest, 30%); 
+    color: lighten($color-darkest, 30%);
   }
 }
 
 .about-text{
   margin: 20px 20px; 
+  font-size: 1.1em;
   p{
     margin: 20px  0; 
   }

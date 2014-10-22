@@ -162,6 +162,12 @@ article{
   p{
     margin: 20px  0; 
   }
+  a{
+    color: darken($color-gold, 20%); 
+  }
+  a:hover{
+    color: $color-gold;
+  }
 }
 
 footer{
@@ -178,8 +184,8 @@ footer{
     color: $color-gold;
   }
   a:hover{
-   color: $color-tan;
-  text-decoration: none;
+    color: $color-tan;
+    text-decoration: none;
   }
   .right-link{
     float:right;

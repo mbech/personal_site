@@ -250,6 +250,10 @@ article {
   margin: 20px 20px; }
   .about-text p {
     margin: 20px  0; }
+  .about-text a {
+    color: #9f7917; }
+  .about-text a:hover {
+    color: #e3b339; }
 
 footer {
   background-color: #1a1a1a;

@@ -40,6 +40,18 @@ header{
   }
 }
 
+li ul{ //nested list
+  padding-left: 30px;
+}
+
+a{
+  color:darken($color-gold, 20%);
+}
+a:hover{
+  text-decoration: none;
+  color: $color-gold;
+}
+
 #name-logo{
   display: inline-block;
   h1 {
@@ -105,6 +117,7 @@ nav a.active {
   padding-left: 0;
 }
 
+
 section{
   margin: 75px 6% 32px;
   padding: 5px 0;
@@ -120,7 +133,7 @@ article{
   overflow: hidden;
   border-bottom-right-radius: 20px;
 }
-  .article-top{
+.article-top{
   color: $color-gold-bright;
   background-color: $color-darkest;
   border-bottom: 5px solid $color-gold;

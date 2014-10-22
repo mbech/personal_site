@@ -149,6 +149,16 @@ header {
   header h1, header h2 {
     margin: 0 0; }
 
+li ul {
+  padding-left: 30px; }
+
+a {
+  color: #9f7917; }
+
+a:hover {
+  text-decoration: none;
+  color: #e3b339; }
+
 #name-logo {
   display: inline-block; }
   #name-logo h1 {

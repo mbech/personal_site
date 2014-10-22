@@ -119,13 +119,8 @@ article{
   border-top: 10px ridge $color-darker;
   overflow: hidden;
   border-bottom-right-radius: 20px;
-  p{
-    margin: 10px 20px;
-    font-size: 1.1em;
-  }
 }
-
-.article-top{
+  .article-top{
   color: $color-gold-bright;
   background-color: $color-darkest;
   border-bottom: 5px solid $color-gold;
@@ -143,6 +138,21 @@ article{
     color: $color-lightest;
     font-weight: 400;
     margin-bottom: 10px;
+  }
+}
+
+.article-img{
+  margin-right: 50px;
+  float: left; 
+  height: 300px;
+  box-shadow: 5px 0px 10px -2px $color-darker;
+}
+
+.article-body {
+  margin: 20px 30px;
+  p{
+    margin: 10px 20px;
+    font-size: 1.1em;
   }
 }
 

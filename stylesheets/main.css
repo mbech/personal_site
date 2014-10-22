@@ -216,9 +216,6 @@ article {
   border-top: 10px ridge #a79e89;
   overflow: hidden;
   border-bottom-right-radius: 20px; }
-  article p {
-    margin: 10px 20px;
-    font-size: 1.1em; }
 
 .article-top {
   color: #e5b339;
@@ -236,6 +233,18 @@ article {
     color: #fcfcfb;
     font-weight: 400;
     margin-bottom: 10px; }
+
+.article-img {
+  margin-right: 50px;
+  float: left;
+  height: 300px;
+  box-shadow: 5px 0px 10px -2px #a79e89; }
+
+.article-body {
+  margin: 20px 30px; }
+  .article-body p {
+    margin: 10px 20px;
+    font-size: 1.1em; }
 
 .about-img {
   margin: 20px 20px;

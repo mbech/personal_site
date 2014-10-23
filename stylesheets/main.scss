@@ -200,6 +200,23 @@ article{
   a:hover{
     color: $color-gold;
   }
+  h2{
+  margin: 15px 0; 
+  }
+  h3{
+  margin: 10px 0; 
+  }
+  h4{
+    margin: 0 0 0 5px;
+    font-style: italic;
+    font-size: 1.2em;
+  }
+  ul{
+ margin: 10px 0;
+ li {
+  margin: 3px 0;
+ }
+  }
 }
 
 footer{

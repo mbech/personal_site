@@ -276,6 +276,18 @@ article {
     color: #9f7917; }
   .about-text a:hover {
     color: #e3b339; }
+  .about-text h2 {
+    margin: 15px 0; }
+  .about-text h3 {
+    margin: 10px 0; }
+  .about-text h4 {
+    margin: 0 0 0 5px;
+    font-style: italic;
+    font-size: 1.2em; }
+  .about-text ul {
+    margin: 10px 0; }
+    .about-text ul li {
+      margin: 3px 0; }
 
 footer {
   background-color: #1a1a1a;

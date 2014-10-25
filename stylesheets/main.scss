@@ -114,9 +114,13 @@ nav a.active {
   padding-left: 0;
 }
 
+.section-wrapper{
+  margin: 75px 100px 32px;  //Acts as a 'min-margin' on section, which has auto
+}
 
 section{
-  margin: 75px 6% 32px;
+  margin: 0 auto;
+  max-width: 1200px;
   padding: 5px 0;
   background-color: rgba($color-tan, 0.8);
   box-shadow: 0 0 15px 5px $color-darker;

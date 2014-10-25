@@ -210,8 +210,12 @@ nav a.active {
   border-left: 10px ridge #e3b339;
   padding-left: 0; }
 
+.section-wrapper {
+  margin: 75px 100px 32px; }
+
 section {
-  margin: 75px 6% 32px;
+  margin: 0 auto;
+  max-width: 1200px;
   padding: 5px 0;
   background-color: rgba(235, 230, 218, 0.8);
   box-shadow: 0 0 15px 5px #a79e89; }

@@ -13,6 +13,7 @@ body{
 #sidebar{
   color: #0BDA00;
   float: right;
+  min-height: 700px;
   height: 100%;
   width: 30%;
   padding:0 2%;
@@ -33,7 +34,9 @@ body{
   width: 40px;
   float: right;
   display: none;
-  height: 700px;
+  min-height: 700px;
+  height: 100%;
+
 }
 
 .vertical-text {

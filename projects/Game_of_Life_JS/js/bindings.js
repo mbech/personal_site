@@ -35,13 +35,13 @@ var initialBindings = function(){
   });
 
   $('#sidebar-hide-strip').on('click', function(){
-    $('#sidebar').toggle();
-    $('#sidebar-show-strip').toggle();
+    $('#sidebar').toggle(800);
+    $('#sidebar-show-strip').toggle(400);
   });  
 
   $('#sidebar-show-strip').on('click', function(){
-    $(this).toggle();
-    $('#sidebar').toggle();
+    $(this).toggle(800);
+    $('#sidebar').toggle(400);
   });  
 
   $( document ).on('click', '.gol-square', function(){

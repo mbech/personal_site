@@ -1,0 +1,124 @@
+body{
+  font-family: 'Orbitron', sans-serif;
+  background-color:black;
+  height: 700px;
+  margin: 0 0;
+}
+
+#main-container{
+  text-align:center;
+  padding-top: 20px; 
+}
+
+#sidebar{
+  color: #0BDA00;
+  float: right;
+  height: 100%;
+  width: 30%;
+  padding:0 2%;
+}
+
+#sidebar-hide-strip{
+  font-size: 1.3em;
+  margin: 0 0;
+  margin-top: 150px;
+  padding: 20px;
+  color: white;
+  background-color: #0BDA00;
+  width: 100%;
+}
+
+#sidebar-show-strip{
+  background-color: #0BDA00;
+  width: 40px;
+  float: right;
+  display: none;
+  height: 700px;
+}
+
+.vertical-text {
+  margin: 0 0;
+  width: 300px; 
+  color: white;
+  transform: rotate(90deg);
+  transform-origin: 0 30px;
+  font-size: 1.5em;
+}
+
+
+li{
+  padding: 5px;
+}
+
+a{
+  color:  white;
+}
+
+a:hover{
+  color: green;
+  text-decoration: none;
+}
+
+.gol-row{
+  height: 25px;
+}
+
+.gol-square{
+  display:inline-block;
+  margin: 0px 0px;
+  width: 25px;
+  height: 25px;
+}
+
+.alive{
+  background-color: #0BDA00;
+}
+
+.dead{
+  height: 23px;
+  width: 23px;
+  border: 1px solid white;
+  background-color: black;
+}
+
+.stat-display{
+  font-size: 1.4em;
+}
+
+.stat-display div{
+  width: 200px;
+  margin: 10px 20px 0;
+  display: inline-block;
+  color: #0BDA00;
+}
+
+button{
+  width: 170px;
+  height: 40px;
+  margin: 10px 10px;
+  font-size: 1em;
+  font-family: 'Orbitron', sans-serif;
+  color: #0BDA00;
+  background-color: black;
+  border: 3px ridge silver;
+}
+
+button:hover{
+  background-color: #0BDA00;
+  color: black;
+}
+
+.timestep-selection{
+  color: #0BDA00;
+  height: 30px;
+  padding-top: 10px;
+  font-size: 1.3em;
+}
+
+#timestep-textbox{
+  display: inline-block;
+  width: 80px;
+}
+#timestep-label{
+  padding: 0 10px;
+}

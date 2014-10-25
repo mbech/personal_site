@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Game of Life</title>
+
+<link rel="stylesheet" href="css/main.css" />
+<link href='http://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/bindings.js"></script>
+<script src="js/view.js"></script>
+<script src="js/game_board.js"></script>
+<script src="js/automater.js"></script>
+<script src="js/controller.js"></script>
+</head>
+<body>
+<div id="sidebar">
+  <h1>Game of Life</h1>
+  <h3>Instructions:</h3>
+  <ol>
+ <li>Click cells in the grid to make them alive (green) or dead (black).</li>
+    <li>Click 'Advance State' to update the board.</li>
+    <li>'Auto-advance' will automatically advance the state at the set time
+    interval.</li>
+    <li>'Clear Board' kills all cells</li>
+    <li>'Randomize' flips a coin to determine
+    each cell's state.</li>
+  </ol>
+  
+  <p>See the Wikipedia page for more info: <a
+    href="http://en.wikipedia.org/wiki/Conway's_Game_of_Life">wikipedia.org/wiki/Conway's_Game_of_Life</a></p>
+  <p>Check out my code on GitHub: <a href="https://github.com/mbech/GoLJS">github.com/mbech/GoLJS</a></p>
+
+  <h2 id="sidebar-hide-strip">CLICK TO HIDE SIDEBAR</h2>
+</div>
+<div id="sidebar-show-strip">
+    <p class="vertical-text">Click to Show Sidebar</p>
+</div>
+<div id="main-container">
+  <div id="board-container">
+  </div>
+  <div class="stat-display">
+    <div id="board-age"></div>
+    <div id="board-population"></div>
+  </div>
+  <div class="timestep-selection">
+    <span id="timestep-label">Select Timestep</span>
+    <input type="range" id="timestep-slider" min="40" max="1000" step="10" value="500" />
+    <span id="timestep-textbox">500</span>
+    <span>ms</span>
+  </div>
+  <div class="board-buttons">
+    <button type="button" id="advance-board">Advance State</button>
+    <button type="button" id="automate-board">Auto-advance</button>
+    <button type="button" id="reset-board">Clear Board</button>
+    <button type="button" id="randomize-board">Randomize</button>
+  </div>
+</div>
+</body>
+</html>

@@ -169,6 +169,16 @@ a:hover {
     #name-logo h1 a:hover {
       color: #a79e89; }
 
+@media screen and (max-width: 830px) {
+  #name-logo {
+    width: 100%; }
+    #name-logo h1 {
+      margin-left: 10%;
+      float: left;
+      font-size: 2em; }
+    #name-logo h2 {
+      margin-right: 10%;
+      float: right; } }
 nav {
   float: right; }
 
@@ -210,9 +220,26 @@ nav a.active {
   border-left: 10px ridge #e3b339;
   padding-left: 0; }
 
+@media screen and (max-width: 830px) {
+  nav {
+    width: 100%; }
+    nav li {
+      height: 40px;
+      width: 30%;
+      margin: 0 0; }
+    nav li:first-child {
+      margin-left: 4%; }
+    nav li:last-child {
+      margin-right: 4%; }
+    nav a {
+      width: 100%;
+      line-height: 40px; } }
 .section-wrapper {
-  margin: 75px 100px 32px; }
+  margin: 75px 50px 32px; }
 
+@media screen and (max-width: 830px) {
+  .section-wrapper {
+    margin: 60px 0; } }
 section {
   margin: 0 auto;
   max-width: 1200px;
@@ -228,6 +255,9 @@ article {
   overflow: hidden;
   border-bottom-right-radius: 20px; }
 
+@media screen and (max-width: 830px) {
+  article {
+    margin: 20px 0; } }
 .article-header {
   color: #e5b339;
   background-color: #1a1a1a;
@@ -249,19 +279,33 @@ article {
   vertical-align: top; }
 
 .article-img {
-  display: inline-block;
-  height: 300px;
-  margin-left: 0;
-  box-shadow: 5px 0px 10px -2px #a79e89; }
+  width: 35%;
+  overflow: auto;
+  float: left; }
+
+.article-img img {
+  display: block;
+  width: 300px; }
 
 .article-text {
-  max-width: 55%;
-  display: inline-block;
-  font-size: 1.1em;
-  margin-left: 30px; }
+  width: 60%;
+  max-height: 300px;
+  overflow: auto;
+  margin: 0 2%;
+  float: right;
+  font-size: 1.1em; }
   .article-text li ul {
     padding-left: 30px; }
 
+@media screen and (max-width: 830px) {
+  .article-img, .article-text {
+    float: none;
+    width: auto; }
+
+  .article-img {
+    background: #1a1a1a; }
+    .article-img img {
+      margin: 0 auto; } }
 .about-img {
   margin: 20px 20px;
   float: right;

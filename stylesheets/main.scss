@@ -72,13 +72,12 @@ a:hover{
   #name-logo{
     width: 100%;
     h1{
-      margin-left: 10%;
-      float: left;
-   font-size: 2em;
+      display: inline-block;
+      font-size: 2em;
+      margin: 0.25em 0.25em;
     }
     h2{
-      margin-right: 10%;
-      float: right;
+      display:none;
     }
   }
 }
@@ -136,18 +135,16 @@ nav a.active {
     width: 100%;
     li{
       height: 40px;
-      width: 30%;
+      width: 31.8%;
       margin: 0 0;
-    }
-    li:first-child{
-      margin-left: 4%
-    }
-    li:last-child{
-      margin-right: 4%
     }
     a{
       width: 100%;
       line-height: 40px;
+    }
+    a.active{
+      border-left: none;
+      padding-left: 10px;
     }
   }
 }
@@ -252,10 +249,12 @@ article{
   margin: 20px 20px;
   float: right;
   text-align: center;
-  p{
-    font-style: italic;
-    font-size: 1em;
-    color: lighten($color-darkest, 30%);
+}
+
+@media screen and (max-width: $width-breakpoint-md) {
+  .about-img{
+    margin: 0 0;
+    margin-bottom: 0.5em;
   }
 }
 

@@ -155,7 +155,7 @@ nav a.active {
 
 @media screen and (max-width: $width-breakpoint-md) {
   .section-wrapper{
-    margin: 60px 0;
+    margin: 60px 0 20px;
   }
 }
 
@@ -253,7 +253,11 @@ article{
 
 @media screen and (max-width: $width-breakpoint-md) {
   .about-img{
-    margin: 0 0;
+    background: $color-darkest;
+    float:none;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 10px;
     margin-bottom: 0.5em;
   }
 }
@@ -293,7 +297,6 @@ footer{
   background-color: rgba($header-background, 1.0);
   color: $color-tan;
   border-top: 2px solid $color-darker;
-  overflow: auto;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -315,4 +318,18 @@ footer{
     margin-left: 0px;
     float:left;
   }
+}
+
+@media screen and (max-width: $width-breakpoint-md) {
+  footer{
+  position: static;
+  overflow: auto;
+  height: 100%;
+  .right-link, .left-link{
+    float:none;
+    width: 100%;
+    display:inline-block;
+    margin: 10px 0;
+  }
+}
 }
